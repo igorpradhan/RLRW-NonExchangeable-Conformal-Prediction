@@ -1,4 +1,5 @@
 import numpy as np
+from scipy.stats import multivariate_normal
 
 class METHODS():
 
@@ -75,3 +76,37 @@ class METHODS():
 
         return quantile, closed
         
+
+    """
+        OPTIMUM BANDWIDTH FOR RLCP
+    """
+    
+    @staticmethod
+    def opt_RLCP_h(X_train, kernel, h_min, eff_size):
+        n_train, d = X_train.shape
+        
+        def effsize(h):
+            H = np.zeros((n_train, n_train))
+            for i in range(n_train):
+                if kernel == "gaussian":
+                    x_tilde_train = np.random.normal(loc=X_train[i, :], scale=np.diag(np.ones(d)) * h**2, size=1)
+                    H[i, :] = multivariate_normal.pdf(X_train, mean=x_tilde_train, cov=np.diag(d) * h**2)
+                    
+                elif kernel == "box":
+                    x_tilde_trains = METHODS.runif_ball(n_train, X_train[i, :], h)
+                    H[i, :] = np.apply_along_axis(lambda x: np.prod(np.abs(x - X_train[i, :]) <= h), 1, x_tilde_trains)
+                    
+                H[i,:] = H[i,:] / np.sum(H[i,:])
+            effective_size = n_train/np.linalg.norm(H, ord = "fro")**2 - 1
+            return effective_size
+
+        
+        candidate_bandwidths = np.arrrage(h_min, 6.02, 0.02)
+        
+        i, optimiser = 1, 0
+        while optimiser < eff_size or i > len(candidate_bandwidths):
+            optimiser  = effsize(candidate_bandwidths[i])
+            h_opt = candidate_bandwidths[i]
+            i += 1
+        
+        return h_opt
