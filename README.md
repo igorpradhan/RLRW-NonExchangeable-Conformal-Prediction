@@ -1,4 +1,5 @@
 # Thesis
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gh-mathjax@2.0.0"></script>
 
 Bachelor thesis on Random Localised Robust Weighted (RLRW) Conformal Prediction on Nonexchangeable Data \\
 
