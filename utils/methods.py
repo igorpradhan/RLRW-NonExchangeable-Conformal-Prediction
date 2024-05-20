@@ -145,7 +145,7 @@ class METHODS():
                 result = METHODS.smoothed_weighted_quantile(scores_unique, alpha, weights, indices)
             elif kernel == "box":
                 xtilde_test = METHODS.runifball(1, xtest, h).flatten()
-                weights = np.array([1 if euclid_distance(x, xtilde_test) <= h else 0 for x in cov_data])
+                weights = np.array([1 if METHODS.euclid_distance(x, xtilde_test) <= h else 0 for x in cov_data])
                 result = METHODS.smoothed_weighted_quantile(scores_unique, alpha, weights, indices)
             
             score_threshold[i] = result[0]  # score_threshold
