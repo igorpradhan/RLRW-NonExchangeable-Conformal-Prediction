@@ -116,7 +116,7 @@ class METHODS():
     """
     
     def RLCP(X_calib, scores_calib, X_test, scores_test, kernel, h, alpha):
-        n_test, d = Xtest.shape
+        n_test, d = X_test.shape
         coverage = score_threshold = [0] * n_test
         
         Xcalib = Xcalib[np.argsort(scores_calib), :]
