@@ -34,7 +34,7 @@ def regression_plot_with_uncertainty(
     
     order = np.argsort(prediction_inputs[:, 0], axis=0)
 
-    cmap = plt.cm.Oranges
+    cmap = plt.cm.OrRd
     indices = np.linspace(0.2, 0.4, num=len(quantiles))
     colors = cmap(indices)
 
