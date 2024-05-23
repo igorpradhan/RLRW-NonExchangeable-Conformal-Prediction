@@ -1,0 +1,361 @@
+school_id,district_id,triplet_id,year,treatment,SD,nrrombel,nrstudents,classsize,nrteachers
+178,10,60,0,control,primary school,6,166,27.666666,6
+172,10,58,0,treatment,primary school,6,212,35.333332,6
+179,10,60,0,control,primary school,6,132,22,10
+173,10,58,0,control,primary school,6,33,5.5,5
+175,10,59,0,control,primary school,6,105,17.5,9
+180,10,60,0,treatment,primary school,6,146,24.333334,6
+169,10,57,0,treatment,primary school,6,101,16.833334,2
+174,10,58,0,control,primary school,6,75,12.5,3
+170,10,57,0,control,primary school,6,109,18.166666,8
+171,10,57,0,control,primary school,6,136,22.666666,6
+176,10,59,0,control,primary school,6,69,11.5,6
+177,10,59,0,treatment,primary school,6,75,12.5,5
+163,10,55,0,control,junior secondary school,4,79,19.75,5
+166,10,56,0,control,junior secondary school,6,95,15.833333,7
+167,10,56,0,control,junior secondary school,7,117,16.714285,9
+164,10,55,0,control,junior secondary school,9,136,15.111111,9
+165,10,55,0,treatment,junior secondary school,5,90,18,5
+168,10,56,0,treatment,junior secondary school,3,48,16,6
+226,13,76,0,control,primary school,6,185,30.833334,6
+227,13,76,0,control,primary school,6,147,24.5,7
+232,13,78,0,control,primary school,6,174,29,6
+223,13,75,0,control,primary school,6,133,22.166666,6
+228,13,76,0,treatment,primary school,6,193,32.166668,7
+229,13,77,0,control,primary school,6,138,23,7
+224,13,75,0,treatment,primary school,6,127,21.166666,6
+230,13,77,0,control,primary school,6,145,24.166666,6
+231,13,77,0,treatment,primary school,6,113,18.833334,7
+233,13,78,0,control,primary school,6,180,30,6
+234,13,78,0,treatment,primary school,6,141,23.5,6
+225,13,75,0,control,primary school,6,116,19.333334,6
+217,13,73,0,treatment,junior secondary school,6,126,21,10
+220,13,74,0,control,junior secondary school,24,588,24.5,24
+221,13,74,0,control,junior secondary school,6,134,22.333334,9
+218,13,73,0,control,junior secondary school,4,70,17.5,5
+219,13,73,0,control,junior secondary school,30,820,27.333334,27
+222,13,74,0,treatment,junior secondary school,10,192,19.200001,8
+97,6,33,0,control,primary school,6,146,24.333334,7
+98,6,33,0,control,primary school,7,180,25.714285,8
+103,6,35,0,control,primary school,9,199,22.111111,7
+100,6,34,0,control,primary school,6,179,29.833334,6
+104,6,35,0,control,primary school,6,190,31.666666,7
+101,6,34,0,treatment,primary school,10,254,25.4,11
+105,6,35,0,treatment,primary school,6,182,30.333334,6
+106,6,36,0,treatment,primary school,12,367,30.583334,12
+107,6,36,0,control,primary school,6,161,26.833334,6
+102,6,34,0,control,primary school,6,194,32.333332,6
+108,6,36,0,control,primary school,10,331,33.099998,12
+99,6,33,0,treatment,primary school,8,247,30.875,8
+91,6,31,0,treatment,junior secondary school,12,313,26.083334,13
+94,6,32,0,treatment,junior secondary school,26,699,26.884615,24
+92,6,31,0,control,junior secondary school,12,335,27.916666,13
+95,6,32,0,control,junior secondary school,21,534,25.428572,22
+93,6,31,0,control,junior secondary school,16,413,25.8125,19
+96,6,32,0,control,junior secondary school,18,471,26.166666,20
+16,1,6,0,treatment,primary school,13,251,19.307692,13
+13,1,5,0,control,primary school,6,40,6.6666665,7
+14,1,5,0,control,primary school,6,147,24.5,6
+10,1,4,0,control,primary school,8,187,23.375,8
+7,1,3,0,treatment,primary school,6,87,14.5,5
+11,1,4,0,treatment,primary school,6,58,9.666667,6
+12,1,4,0,control,primary school,6,61,10.166667,7
+17,1,6,0,control,primary school,6,87,14.5,6
+15,1,5,0,treatment,primary school,10,197,19.700001,10
+8,1,3,0,control,primary school,6,98,16.333334,6
+9,1,3,0,control,primary school,6,154,25.666666,5
+18,1,6,0,control,primary school,6,116,19.333334,6
+4,1,2,0,control,junior secondary school,15,420,28,12
+1,1,1,0,control,junior secondary school,9,217,24.111111,8
+5,1,2,0,control,junior secondary school,12,267,22.25,11
+2,1,1,0,control,junior secondary school,9,164,18.222221,9
+6,1,2,0,treatment,junior secondary school,15,318,21.200001,11
+3,1,1,0,treatment,junior secondary school,4,70,17.5,5
+340,19,114,0,control,primary school,6,72,12,6
+331,19,111,0,control,primary school,6,178,29.666666,6
+334,19,112,0,control,primary school,7,269,38.42857,7
+337,19,113,0,control,primary school,6,190,31.666666,6
+335,19,112,0,control,primary school,6,198,33,6
+336,19,112,0,treatment,primary school,7,200,28.571428,7
+341,19,114,0,control,primary school,8,206,25.75,8
+332,19,111,0,control,primary school,6,144,24,6
+342,19,114,0,treatment,primary school,6,193,32.166668,6
+338,19,113,0,treatment,primary school,8,285,35.625,8
+333,19,111,0,treatment,primary school,6,97,16.166666,6
+339,19,113,0,control,primary school,6,205,34.166668,6
+325,19,109,0,treatment,junior secondary school,6,132,22,6
+326,19,109,0,control,junior secondary school,8,178,22.25,7
+328,19,110,0,control,junior secondary school,22,593,26.954546,19
+329,19,110,0,treatment,junior secondary school,23,583,25.347826,19
+330,19,110,0,control,junior secondary school,14,348,24.857143,10
+327,19,109,0,control,junior secondary school,8,120,15,9
+85,5,29,0,control,primary school,6,118,19.666666,6
+82,5,28,0,control,primary school,6,166,27.666666,6
+83,5,28,0,control,primary school,6,177,29.5,6
+88,5,30,0,control,primary school,6,60,10,6
+89,5,30,0,treatment,primary school,6,41,6.8333335,6
+84,5,28,0,treatment,primary school,6,140,23.333334,6
+90,5,30,0,control,primary school,6,182,30.333334,8
+86,5,29,0,control,primary school,6,140,23.333334,7
+79,5,27,0,treatment,primary school,6,97,16.166666,7
+87,5,29,0,treatment,primary school,6,112,18.666666,6
+80,5,27,0,control,primary school,6,46,7.6666665,6
+81,5,27,0,control,primary school,6,50,8.333333,6
+76,5,26,0,treatment,junior secondary school,20,474,23.700001,25
+73,5,25,0,control,junior secondary school,20,483,24.15,20
+74,5,25,0,treatment,junior secondary school,19,498,26.210526,18
+75,5,25,0,control,junior secondary school,16,410,25.625,17
+77,5,26,0,control,junior secondary school,18,456,25.333334,21
+78,5,26,0,control,junior secondary school,18,443,24.611111,17
+205,12,69,0,treatment,primary school,12,324,27,13
+211,12,71,0,control,primary school,6,215,35.833332,7
+206,12,69,0,control,primary school,7,189,27,8
+212,12,71,0,treatment,primary school,6,208,34.666668,6
+208,12,70,0,treatment,primary school,6,119,19.833334,7
+214,12,72,0,treatment,primary school,6,157,26.166666,6
+209,12,70,0,control,primary school,6,122,20.333334,7
+215,12,72,0,control,primary school,6,92,15.333333,6
+210,12,70,0,control,primary school,6,195,32.5,6
+216,12,72,0,control,primary school,6,185,30.833334,6
+207,12,69,0,control,primary school,6,126,21,6
+213,12,71,0,control,primary school,6,96,16,7
+199,12,67,0,treatment,junior secondary school,12,306,25.5,12
+200,12,67,0,control,junior secondary school,21,546,26,20
+202,12,68,0,treatment,junior secondary school,24,548,22.833334,22
+203,12,68,0,control,junior secondary school,23,634,27.565218,23
+204,12,68,0,control,junior secondary school,25,625,25,22
+201,12,67,0,control,junior secondary school,23,536,23.304348,22
+286,16,96,0,control,primary school,9,219,24.333334,11
+287,16,96,0,treatment,primary school,9,191,21.222221,9
+280,16,94,0,control,primary school,7,157,22.428572,8
+283,16,95,0,control,primary school,9,184,20.444445,10
+277,16,93,0,control,primary school,7,145,20.714285,7
+281,16,94,0,control,primary school,6,104,17.333334,6
+282,16,94,0,treatment,primary school,11,187,17,11
+278,16,93,0,control,primary school,6,118,19.666666,6
+284,16,95,0,treatment,primary school,7,144,20.571428,7
+279,16,93,0,treatment,primary school,12,277,23.083334,13
+285,16,95,0,control,primary school,6,130,21.666666,6
+288,16,96,0,control,primary school,6,180,30,7
+274,16,92,0,control,junior secondary school,12,279,23.25,17
+275,16,92,0,treatment,junior secondary school,12,203,16.916666,11
+271,16,91,0,control,junior secondary school,6,137,22.833334,8
+276,16,92,0,control,junior secondary school,14,315,22.5,17
+272,16,91,0,control,junior secondary school,9,218,24.222221,14
+273,16,91,0,treatment,junior secondary school,12,284,23.666666,13
+49,3,17,0,control,primary school,8,167,20.875,8
+46,3,16,0,control,primary school,8,187,23.375,8
+43,3,15,0,control,primary school,6,136,22.666666,6
+52,3,18,0,control,primary school,6,38,6.3333335,6
+53,3,18,0,treatment,primary school,6,104,17.333334,6
+50,3,17,0,treatment,primary school,8,202,25.25,7
+51,3,17,0,control,primary school,6,99,16.5,7
+44,3,15,0,treatment,primary school,6,135,22.5,6
+54,3,18,0,control,primary school,7,143,20.428572,7
+45,3,15,0,control,primary school,6,113,18.833334,8
+47,3,16,0,control,primary school,6,88,14.666667,6
+48,3,16,0,treatment,primary school,6,104,17.333334,6
+40,3,14,0,control,junior secondary school,15,316,21.066668,13
+37,3,13,0,treatment,junior secondary school,5,78,15.6,6
+41,3,14,0,control,junior secondary school,16,426,26.625,15
+38,3,13,0,control,junior secondary school,7,110,15.714286,6
+39,3,13,0,control,junior secondary school,5,71,14.2,9
+42,3,14,0,treatment,junior secondary school,17,370,21.764706,14
+247,14,83,0,control,primary school,6,58,9.666667,6
+244,14,82,0,control,primary school,6,77,12.833333,7
+250,14,84,0,control,primary school,6,90,15,6
+245,14,82,0,control,primary school,6,64,10.666667,7
+251,14,84,0,control,primary school,6,94,15.666667,7
+246,14,82,0,treatment,primary school,6,53,8.833333,6
+241,14,81,0,control,primary school,6,22,3.6666667,6
+242,14,81,0,control,primary school,6,145,24.166666,6
+248,14,83,0,treatment,primary school,6,69,11.5,6
+249,14,83,0,control,primary school,6,43,7.1666665,6
+252,14,84,0,treatment,primary school,7,154,22,7
+243,14,81,0,treatment,primary school,6,70,11.666667,6
+238,14,80,0,control,junior secondary school,15,364,24.266666,17
+239,14,80,0,treatment,junior secondary school,21,476,22.666666,20
+235,14,79,0,control,junior secondary school,10,251,25.1,13
+240,14,80,0,control,junior secondary school,21,505,24.047619,21
+236,14,79,0,treatment,junior secondary school,18,412,22.888889,23
+237,14,79,0,control,junior secondary school,12,168,14,14
+304,17,102,0,treatment,primary school,7,146,20.857143,8
+295,17,99,0,control,primary school,8,148,18.5,8
+301,17,101,0,treatment,primary school,6,79,13.166667,6
+302,17,101,0,control,primary school,7,161,23,7
+303,17,101,0,control,primary school,6,87,14.5,6
+298,17,100,0,treatment,primary school,6,17,2.8333333,5
+299,17,100,0,control,primary school,6,67,11.166667,6
+300,17,100,0,control,primary school,8,172,21.5,8
+305,17,102,0,control,primary school,6,187,31.166666,6
+296,17,99,0,control,primary school,6,78,13,6
+306,17,102,0,control,primary school,6,84,14,6
+297,17,99,0,treatment,primary school,6,42,7,6
+289,17,97,0,control,junior secondary school,10,218,21.799999,8
+290,17,97,0,control,junior secondary school,4,59,14.75,7
+292,17,98,0,control,junior secondary school,16,394,24.625,18
+293,17,98,0,treatment,junior secondary school,9,185,20.555555,10
+294,17,98,0,control,junior secondary school,10,256,25.6,10
+291,17,97,0,treatment,junior secondary school,7,111,15.857142,8
+190,11,64,0,control,primary school,6,41,6.8333335,6
+191,11,64,0,control,primary school,6,60,10,6
+193,11,65,0,control,primary school,6,141,23.5,6
+194,11,65,0,treatment,primary school,6,97,16.166666,6
+196,11,66,0,control,primary school,12,378,31.5,13
+187,11,63,0,treatment,primary school,6,118,19.666666,5
+192,11,64,0,treatment,primary school,6,65,10.833333,6
+188,11,63,0,control,primary school,6,210,35,6
+197,11,66,0,treatment,primary school,7,210,30,7
+195,11,65,0,control,primary school,6,130,21.666666,5
+189,11,63,0,control,primary school,6,96,16,6
+198,11,66,0,control,primary school,6,142,23.666666,7
+184,11,62,0,control,junior secondary school,12,233,19.416666,13
+185,11,62,0,treatment,junior secondary school,15,311,20.733334,15
+181,11,61,0,treatment,junior secondary school,15,399,26.6,16
+182,11,61,0,control,junior secondary school,10,209,20.9,10
+183,11,61,0,control,junior secondary school,5,120,24,8
+186,11,62,0,control,junior secondary school,17,348,20.470589,14
+154,9,52,0,control,primary school,6,56,9.333333,6
+160,9,54,0,control,primary school,6,75,12.5,7
+157,9,53,0,treatment,primary school,10,226,22.6,10
+158,9,53,0,control,primary school,6,42,7,9
+159,9,53,0,control,primary school,6,68,11.333333,7
+151,9,51,0,treatment,primary school,6,75,12.5,8
+152,9,51,0,control,primary school,6,42,7,7
+161,9,54,0,control,primary school,6,32,5.3333335,6
+162,9,54,0,treatment,primary school,8,141,17.625,9
+153,9,51,0,control,primary school,6,84,14,6
+155,9,52,0,treatment,primary school,6,154,25.666666,9
+156,9,52,0,control,primary school,6,127,21.166666,7
+148,9,50,0,control,junior secondary school,7,111,15.857142,10
+149,9,50,0,control,junior secondary school,11,191,17.363636,12
+145,9,49,0,control,junior secondary school,3,38,12.666667,8
+146,9,49,0,control,junior secondary school,5,40,8,11
+150,9,50,0,treatment,junior secondary school,6,83,13.833333,12
+147,9,49,0,treatment,junior secondary school,5,64,12.8,7
+139,8,47,0,treatment,primary school,6,156,26,6
+136,8,46,0,control,primary school,6,122,20.333334,7
+133,8,45,0,control,primary school,9,224,24.888889,10
+134,8,45,0,treatment,primary school,6,116,19.333334,6
+142,8,48,0,control,primary school,6,238,39.666668,6
+137,8,46,0,treatment,primary school,6,172,28.666666,6
+138,8,46,0,control,primary school,6,207,34.5,7
+140,8,47,0,control,primary school,6,70,11.666667,6
+135,8,45,0,control,primary school,12,490,40.833332,12
+141,8,47,0,control,primary school,11,278,25.272728,12
+143,8,48,0,control,primary school,6,77,12.833333,6
+144,8,48,0,treatment,primary school,6,149,24.833334,6
+127,8,43,0,control,junior secondary school,6,114,19,3
+130,8,44,0,control,junior secondary school,8,176,22,7
+128,8,43,0,treatment,junior secondary school,5,78,15.6,4
+131,8,44,0,control,junior secondary school,9,264,29.333334,6
+132,8,44,0,treatment,junior secondary school,4,65,16.25,4
+129,8,43,0,control,junior secondary school,6,85,14.166667,6
+358,20,120,0,control,primary school,11,272,24.727272,12
+355,20,119,0,treatment,primary school,8,210,26.25,8
+352,20,118,0,control,primary school,8,181,22.625,8
+353,20,118,0,treatment,primary school,9,207,23,10
+359,20,120,0,treatment,primary school,6,116,19.333334,7
+349,20,117,0,control,primary school,6,160,26.666666,6
+360,20,120,0,control,primary school,6,82,13.666667,6
+356,20,119,0,control,primary school,6,154,25.666666,6
+350,20,117,0,treatment,primary school,6,192,32,7
+351,20,117,0,control,primary school,6,60,10,7
+354,20,118,0,control,primary school,7,170,24.285715,7
+357,20,119,0,control,primary school,6,67,11.166667,7
+346,20,116,0,control,junior secondary school,21,499,23.761906,18
+343,20,115,0,control,junior secondary school,7,109,15.571428,13
+347,20,116,0,control,junior secondary school,6,116,19.333334,13
+348,20,116,0,treatment,junior secondary school,9,187,20.777779,9
+344,20,115,0,control,junior secondary school,6,114,19,9
+345,20,115,0,treatment,junior secondary school,6,86,14.333333,6
+115,7,39,0,treatment,primary school,12,324,27,13
+124,7,42,0,control,primary school,12,400,33.333332,12
+121,7,41,0,treatment,primary school,12,367,30.583334,12
+122,7,41,0,control,primary school,6,145,24.166666,6
+118,7,40,0,control,primary school,6,71,11.833333,6
+119,7,40,0,treatment,primary school,9,245,27.222221,9
+125,7,42,0,control,primary school,6,72,12,8
+123,7,41,0,control,primary school,16,403,25.1875,15
+116,7,39,0,control,primary school,6,165,27.5,6
+117,7,39,0,control,primary school,6,55,9.166667,6
+126,7,42,0,treatment,primary school,6,206,34.333332,6
+120,7,40,0,control,primary school,22,709,32.227272,19
+109,7,37,0,control,junior secondary school,17,415,24.411764,31
+110,7,37,0,treatment,junior secondary school,26,755,29.038462,37
+112,7,38,0,treatment,junior secondary school,16,365,22.8125,19
+111,7,37,0,control,junior secondary school,6,102,17,10
+113,7,38,0,control,junior secondary school,9,140,15.555555,14
+114,7,38,0,control,junior secondary school,13,336,25.846153,22
+319,18,107,0,control,primary school,6,216,36,8
+316,18,106,0,control,primary school,6,57,9.5,7
+322,18,108,0,control,primary school,6,133,22.166666,7
+323,18,108,0,control,primary school,6,159,26.5,7
+313,18,105,0,control,primary school,6,92,15.333333,6
+317,18,106,0,treatment,primary school,6,121,20.166666,8
+324,18,108,0,treatment,primary school,6,42,7,6
+314,18,105,0,control,primary school,6,111,18.5,6
+318,18,106,0,control,primary school,6,185,30.833334,10
+315,18,105,0,treatment,primary school,8,230,28.75,9
+320,18,107,0,treatment,primary school,6,89,14.833333,6
+321,18,107,0,control,primary school,8,185,23.125,9
+310,18,104,0,control,junior secondary school,12,315,26.25,12
+307,18,103,0,control,junior secondary school,6,152,25.333334,7
+311,18,104,0,control,junior secondary school,12,316,26.333334,10
+308,18,103,0,control,junior secondary school,12,329,27.416666,11
+309,18,103,0,treatment,junior secondary school,11,226,20.545454,14
+312,18,104,0,treatment,junior secondary school,11,239,21.727272,13
+64,4,22,0,control,primary school,7,151,21.571428,6
+67,4,23,0,control,primary school,6,113,18.833334,6
+65,4,22,0,control,primary school,6,132,22,6
+70,4,24,0,treatment,primary school,6,128,21.333334,7
+61,4,21,0,treatment,primary school,8,194,24.25,8
+68,4,23,0,treatment,primary school,6,86,14.333333,7
+71,4,24,0,control,primary school,12,250,20.833334,12
+62,4,21,0,control,primary school,6,121,20.166666,7
+69,4,23,0,control,primary school,10,258,25.799999,10
+72,4,24,0,control,primary school,6,126,21,6
+63,4,21,0,control,primary school,6,96,16,6
+66,4,22,0,treatment,primary school,12,141,11.75,8
+55,4,19,0,control,junior secondary school,8,166,20.75,8
+58,4,20,0,treatment,junior secondary school,8,180,22.5,9
+59,4,20,0,control,junior secondary school,5,73,14.6,6
+60,4,20,0,control,junior secondary school,6,116,19.333334,10
+56,4,19,0,treatment,junior secondary school,3,37,12.333333,8
+57,4,19,0,control,junior secondary school,6,86,14.333333,8
+34,2,12,0,control,primary school,12,312,26,14
+35,2,12,0,control,primary school,6,120,20,6
+31,2,11,0,control,primary school,6,148,24.666666,6
+28,2,10,0,treatment,primary school,12,286,23.833334,13
+36,2,12,0,treatment,primary school,11,228,20.727272,11
+32,2,11,0,treatment,primary school,6,59,9.833333,7
+25,2,9,0,control,primary school,13,265,20.384615,13
+29,2,10,0,control,primary school,6,141,23.5,11
+26,2,9,0,control,primary school,6,196,32.666668,10
+30,2,10,0,control,primary school,10,237,23.700001,10
+27,2,9,0,treatment,primary school,6,85,14.166667,6
+33,2,11,0,control,primary school,6,84,14,9
+22,2,8,0,control,junior secondary school,9,195,21.666666,15
+19,2,7,0,control,junior secondary school,4,105,26.25,7
+20,2,7,0,treatment,junior secondary school,12,268,22.333334,16
+23,2,8,0,control,junior secondary school,7,129,18.428572,12
+24,2,8,0,treatment,junior secondary school,9,172,19.111111,9
+21,2,7,0,control,junior secondary school,3,17,5.6666665,5
+265,15,89,0,control,primary school,8,169,21.125,8
+259,15,87,0,treatment,primary school,17,371,21.82353,19
+266,15,89,0,control,primary school,9,174,19.333334,10
+267,15,89,0,treatment,primary school,6,150,25,7
+260,15,87,0,control,primary school,6,116,19.333334,7
+262,15,88,0,treatment,primary school,24,160,6.6666665,18
+268,15,90,0,treatment,primary school,6,80,13.333333,6
+263,15,88,0,control,primary school,6,77,12.833333,7
+264,15,88,0,control,primary school,9,168,18.666666,9
+269,15,90,0,control,primary school,16,422,26.375,17
+261,15,87,0,control,primary school,6,64,10.666667,6
+256,15,86,0,treatment,junior secondary school,9,152,16.888889,14
+253,15,85,0,control,junior secondary school,3,50,16.666666,4
+254,15,85,0,treatment,junior secondary school,3,25,8.333333,4
+270,15,90,0,control,primary school,6,123,20.5,8
+255,15,85,0,control,junior secondary school,7,119,17,11
+257,15,86,0,control,junior secondary school,10,265,26.5,14
+258,15,86,0,control,junior secondary school,3,50,16.666666,5
