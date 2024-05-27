@@ -121,3 +121,47 @@ def compute_coverage(y, prediction_bands):
     num_points_outside = np.sum((y < prediction_bands[:,0]) | (y > prediction_bands[:,1]))
     coverage_score = 1.0-num_points_outside/len(y)
     return coverage_score
+
+
+def plot_coverage(methods: list, 
+                  coverage: list,
+                  train_lag: int, 
+                  N: int,
+                  pi_width: list, 
+                  title: str = 'Coverage of Prediction Bands',
+                  window: int = 10,
+                  alpha: float = 0.9
+                  ) -> None:
+    
+    
+    plt.rcParams.update({'font.size': 14})
+
+
+    def rolling_avg(x,window):
+        return np.convolve(x, np.ones(window)/window)[(window-1):-window]
+        
+    fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(14,4))
+
+    for method_idx, method in enumerate(methods):
+        ax[0].plot(np.arange(train_lag+window,N), rolling_avg(coverage[method_idx], window))
+        ax[1].plot(np.arange(train_lag, N), pi_width[method_idx])
+
+    ax[0].hlines(1-alpha, xmin=train_lag, xmax=N, linestyles='--', colors='gray')
+    ax[0].legend(['CP-LS','nexCP+LS','nexCP+WLS'])
+
+    ax[0].set_ylabel('Coverage')
+    ax[0].set_ylim([0, 1])
+    ax[0].set_yticks([0, 0.25, 0.5, 0.75, 1.0])
+    ax[0].set_xlabel('Time')
+    ax[0].grid(True)
+
+    ax[1].set_ylabel('Width')
+    ymax = np.max([
+        pi_width[method_idx].max() for method_idx in range(len(methods))
+    ]) * 1.1
+    ax[1].set_ylim([0, ymax])
+    ax[1].set_yticks([0, 2, 4, 6])
+    ax[1].set_xlabel('Time')
+    ax[1].grid(True)
+
+    plt.show()
