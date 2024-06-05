@@ -23,7 +23,7 @@ def split_conformal_bands(predictor,
     return prediction_bands, quantile, mean_predictions
 
 
-def weighted_split_conformal_prediction(predictor,
+def weighted_conformal_prediction(predictor,
                                         X_cal,
                                         y_cal,
                                         X_test,
@@ -44,13 +44,11 @@ def weighted_split_conformal_prediction(predictor,
         R = np.abs(y_cal - predictor.predict(X_cal))
         ord_R = np.argsort(R)
         # from when are the cumulative quantiles at least 1-\alpha
-        ind_thresh = np.min(np.where(np.cumsum(weights_normalized[ord_R])>=1-alpha))
+        ind_thresh = np.min(np.where(np.cumsum(weights_normalized[ord_R])>=1-alpha)) if not None else len(weights_normalized)
         # get the corresponding residual
         quantile = np.sort(R)[ind_thresh]
         
     else:
-        print("Warning: The sum of the weights is smaller than 1-alpha. Returning inf as quantile.")
-        print("Sum of weights: ", np.sum(weights_normalized))
         quantile = 1
     
     # Standard prediction intervals using the absolute residual score quantile
