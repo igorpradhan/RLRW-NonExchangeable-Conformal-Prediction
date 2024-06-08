@@ -23,31 +23,70 @@ def split_conformal_bands(predictor,
     return prediction_bands, quantile, mean_predictions
 
 
-def weighted_split_conformal_prediction(predictor,
-                                        X_cal,
-                                        y_cal,
-                                        X_test,
-                                        cal_weights,
-                                        alpha=0.95
-                                        ):
+# def weighted_conformal_prediction(predictor,
+#                                         X_cal,
+#                                         y_cal,
+#                                         X_test,
+#                                         cal_weights,
+#                                         alpha=0.95
+#                                         ):
+#     """ 
+#     Weighted Split Conformal Prediction (taken from github.io/code/nonexchangeable_conformal.zip) 
+#     """
+
+#     # normalize weights (we add +1 in the denominator for the test point at n+1)
+    
+
+#     weights_normalized = cal_weights / (np.sum(cal_weights) + 1)
+
+#     if(np.sum(weights_normalized) >= 1-alpha):
+#         # calibration scores: |y_i - x_i @ betahat|
+#         R = np.abs(y_cal - predictor.predict(X_cal))
+#         ord_R = np.argsort(R)
+#         # from when are the cumulative quantiles at least 1-\alpha
+#         ind_thresh = np.min(np.where(np.cumsum(weights_normalized[ord_R])>=1-alpha))
+#         # get the corresponding residual
+#         quantile = np.sort(R)[ind_thresh]
+        
+#     else:
+#         quantile = 1
+    
+#     # Standard prediction intervals using the absolute residual score quantile
+#     mean_prediction = predictor.predict(X_test)
+#     prediction_bands = np.stack([
+#         mean_prediction - quantile,
+#         mean_prediction + quantile
+#     ], axis=1)
+    
+#     return mean_prediction, prediction_bands, quantile
+
+
+def weighted_conformal_prediction(predictor, X_cal, y_cal, X_test, cal_weights, alpha=0.95):
     """ 
     Weighted Split Conformal Prediction (taken from github.io/code/nonexchangeable_conformal.zip) 
     """
 
-    # normalize weights (we add +1 in the denominator for the test point at n+1)
-    
-
+    # Normalize weights (we add +1 in the denominator for the test point at n+1)
     weights_normalized = cal_weights / (np.sum(cal_weights) + 1)
 
-    if(np.sum(weights_normalized) >= 1-alpha):
-        # calibration scores: |y_i - x_i @ betahat|
+    if np.sum(weights_normalized) >= 1 - alpha:
+        # Calibration scores: |y_i - predictor.predict(X_cal)|
         R = np.abs(y_cal - predictor.predict(X_cal))
         ord_R = np.argsort(R)
-        # from when are the cumulative quantiles at least 1-\alpha
-        ind_thresh = np.min(np.where(np.cumsum(weights_normalized[ord_R])>=1-alpha))
-        # get the corresponding residual
-        quantile = np.sort(R)[ind_thresh]
         
+        # Compute cumulative weights
+        cum_weights = np.cumsum(weights_normalized[ord_R])
+        
+        # Find the first index where the cumulative sum is >= 1 - alpha
+        valid_indices = np.where(cum_weights >= 1 - alpha-0.02)[0]
+        
+        if len(valid_indices) == 0:
+            raise ValueError(f"No valid threshold found; check alpha and weights with cumsum: {cum_weights[-1]} and sum weights: {np.sum(weights_normalized)}")
+        
+        ind_thresh = np.min(valid_indices)
+        
+        # Get the corresponding residual
+        quantile = np.sort(R)[ind_thresh]
     else:
         quantile = 1
     

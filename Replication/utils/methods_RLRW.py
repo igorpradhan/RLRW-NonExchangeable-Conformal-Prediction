@@ -88,7 +88,7 @@ def opt_RLCP_h(X_train, kernel, h_min, eff_size):
                 H[i, :] = multivariate_normal.pdf(X_train, mean=x_tilde_train, cov=np.diag(d) * h**2)
                 
             elif kernel == "box":
-                x_tilde_trains = METHODS.runif_ball(n_train, X_train[i, :], h)
+                x_tilde_trains = runif_ball(n_train, X_train[i, :], h)
                 H[i, :] = np.apply_along_axis(lambda x: np.prod(np.abs(x - X_train[i, :]) <= h), 1, x_tilde_trains)
                 
             H[i,:] = H[i,:] / np.sum(H[i,:])
