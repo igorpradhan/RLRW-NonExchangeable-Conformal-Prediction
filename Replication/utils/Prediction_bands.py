@@ -37,7 +37,7 @@ def weighted_conformal_prediction(predictor,
     # normalize weights (we add +1 in the denominator for the test point at n+1)
     
 
-    weights_normalized = cal_weights / (np.sum(cal_weights) + 1)
+    weights_normalized = cal_weights / (np.sum(cal_weights))
 
     if(np.sum(weights_normalized) >= 1-alpha):
         # calibration scores: |y_i - x_i @ betahat|
