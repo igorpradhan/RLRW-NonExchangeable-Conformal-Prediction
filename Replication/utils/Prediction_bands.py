@@ -58,4 +58,4 @@ def weighted_conformal_prediction(predictor,
         mean_prediction + quantile
     ], axis=1)
     
-    return mean_prediction, prediction_bands, quantile
+    return mean_prediction, prediction_bands, quantile, weights_normalized
